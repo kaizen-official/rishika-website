@@ -1,0 +1,165 @@
+{
+    "brand": {
+        "name": "Rishika Builders",
+        "website": "www.rishikabuilders.com",
+        "email": "info@rishikabuilders.com",
+        "social": {
+            "twitter": {
+                "handle": "@rishika_builders",
+                "location": "Sonipat"
+            },
+            "instagram": {
+                "handle": "rishika_builders"
+            }
+        }
+    },
+    "brand_identity": {
+        "slogan": "Not just spaces. Statements of legacy — Luxury redefined by Rishika Builders.",
+        "taglines": [
+            "Purpose with Precision",
+            "Trust Built In"
+        ],
+        "brand_personality": [
+            "Professional and authoritative",
+            "Authentic and genuine",
+            "Sophisticated and premium",
+            "Legacy-driven",
+            "Modern and precise",
+            "Luxury-focused",
+            "Rich in heritage"
+        ],
+        "brand_voice": "Professional, authoritative, authentic, and consistent across all media."
+    },
+    "introduction": "Rishika Builders crafts enduring legacies through Vastu-compliant foundations, refined engineering, and timeless aesthetics. From luxury residences to premium estates, the brand focuses on integrity, growth, and redefining modern luxury living.",
+    "color_palette": {
+        "primary_colors": [
+            {
+                "name": "Gray",
+                "hex": "#A07558",
+                "meaning": "Trust and built-in reliability"
+            },
+            {
+                "name": "Black",
+                "hex": "#000000",
+                "meaning": "Modern authority"
+            },
+            {
+                "name": "Light Gray",
+                "hex": "#9E9E9E",
+                "meaning": "Precision and clarity"
+            },
+            {
+                "name": "Dark Grey",
+                "hex": "#333333",
+                "meaning": "Legacy luxury and strength"
+            },
+            {
+                "name": "Sunshade",
+                "hex": "#FBB03B",
+                "meaning": "Premium warmth"
+            }
+        ],
+        "additional_colors": [
+            {
+                "name": "Cream",
+                "hex": "#D9C3AB"
+            },
+            {
+                "name": "Gray Variant",
+                "hex": "#4A4A4A"
+            }
+        ],
+        "usage_guidelines": {
+            "rule": "60-30-10",
+            "distribution": {
+                "dominant": "60%",
+                "secondary": "30%",
+                "accent": "10%"
+            },
+            "approved_contrast": [
+                "White text on Dark Grey",
+                "Dark Grey text on White"
+            ]
+        }
+    },
+    "typography": {
+        "primary": {
+            "font": "Clash Display",
+            "weights": [
+                "Extralight",
+                "Light",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+            ],
+            "usage": "Headlines, hero sections, high-impact statements"
+        },
+        "secondary": {
+            "font": "Satoshi",
+            "weights": [
+                "Light",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Black"
+            ],
+            "usage": "Body text, navigation, UI, detailed captions"
+        },
+        "tertiary": {
+            "font": "General Sans",
+            "weights": [
+                "Extralight",
+                "Light",
+                "Regular",
+                "Medium",
+                "Semibold",
+                "Bold"
+            ],
+            "usage": "Functional and rational text"
+        },
+        "alternative_display": {
+            "font": "Cabinet Grotesk",
+            "weights": [
+                "Light",
+                "Regular",
+                "Medium",
+                "Bold",
+                "Extrabold"
+            ],
+            "usage": "Industrial-style high-impact headlines"
+        }
+    },
+    "typography_guidelines": {
+        "website": {
+            "H1": {
+                "font": "Clash Display",
+                "weight": "Bold/Semibold"
+            },
+            "H2_H3": {
+                "font": "Clash Display",
+                "weight": "Medium"
+            },
+            "body": {
+                "font": "Satoshi",
+                "weight": "Regular"
+            },
+            "navigation": {
+                "font": "Satoshi",
+                "weight": "Medium"
+            },
+            "buttons": {
+                "font": "Satoshi",
+                "weight": "Medium/Bold"
+            },
+            "numbers": {
+                "font": "Satoshi",
+                "weight": "Medium"
+            }
+        }
+    },
+    "brand_patterns": {
+        "style": "Color-on-color",
+        "guideline": "Use tones from the same color family derived from primary palette."
+    }
+}
