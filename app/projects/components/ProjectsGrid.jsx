@@ -149,9 +149,13 @@ function ProjectModal({ project, onClose }) {
 
     const totalImages = project?.gallery?.length || 1;
 
-    // Lock body scroll & prevent background scrolling with overscroll-behavior
+    // Lock body scroll & stop Lenis smooth scrolling
     useEffect(() => {
         const scrollY = window.scrollY;
+
+        // Stop Lenis so it doesn't hijack scroll events
+        if (window.__lenis) window.__lenis.stop();
+
         document.body.style.position = "fixed";
         document.body.style.top = `-${scrollY}px`;
         document.body.style.left = "0";
@@ -164,6 +168,9 @@ function ProjectModal({ project, onClose }) {
             document.body.style.right = "";
             document.body.style.overflow = "";
             window.scrollTo(0, scrollY);
+
+            // Restart Lenis
+            if (window.__lenis) window.__lenis.start();
         };
     }, []);
 

@@ -13,6 +13,9 @@ export default function SmoothScroll({ children }) {
       smoothWheel: true,
     });
 
+    // Expose globally so modals can stop/start
+    window.__lenis = lenis;
+
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -22,6 +25,7 @@ export default function SmoothScroll({ children }) {
 
     return () => {
       lenis.destroy();
+      window.__lenis = null;
     };
   }, []);
 

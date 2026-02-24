@@ -32,7 +32,7 @@ export const metadata = {
       "Not just spaces. Statements of legacy — Luxury redefined by Rishika Builders. Crafting enduring legacies through Vastu-compliant foundations and timeless aesthetics.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Rishika Builders - Premium Luxury Homes",
@@ -113,6 +113,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <meta name="apple-mobile-web-app-title" content="Rishika" />
       </head>
       <body className="antialiased text-dark">
         <SmoothScroll>
